@@ -179,12 +179,12 @@ function copyChecklistAuditText() {
 
   const examStatus = examPassed ? 'сдан' : 'не сдан';
   const positionLine = examPassed
-    ? 'Переведён на должность: Мл. Фельдшер'
+    ? 'Переведён на должность: Junior paramedic'
     : 'Отправлен на пересдачу';
 
   const text =
     `Стажёр: ${traineesString}\n` +
-    `Должность: Интерн\n` +
+    `Должность: Intern\n` +
     `Куратор: ${curatorText}\n` +
     `Результат экзамена: ${examStatus};\n` +
     `${positionLine}\n` +
