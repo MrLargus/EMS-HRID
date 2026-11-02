@@ -405,7 +405,7 @@ function copyAuditText() {
 
     const text =
         `Имя: \n` +
-        `Должность: Интерн\n` +
+        `Должность: Intern\n` +
         `Куратор: @${curatorLogin}\n` +
         `Дата: ${dateStr}\n` +
         `@High staff`;
